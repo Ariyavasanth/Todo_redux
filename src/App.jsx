@@ -16,12 +16,12 @@ function App() {
   const [showFilter, setShowFilter] = useState(false);
   const [filter, setFilter] = useState("all");
 
-
-
   //get the list from slice
   const todoList = useSelector((state) => {
     return state.todo.items;
   });
+
+  const dispatch = useDispatch();
 
   const filteredTodos = todoList.filter((item) => {
     if (filter === "completed") return item.completed;
@@ -45,7 +45,11 @@ function App() {
 
         {/*display list*/}
         <div className="bg-[#99E1D9] p-5 min max-h-[250px]  overflow-y-auto">
-          <TodoItem filteredTodos={filteredTodos} />
+          <TodoItem
+            filteredTodos={filteredTodos}
+            dispatch={dispatch}
+            
+          />
         </div>
       </div>
     </main>

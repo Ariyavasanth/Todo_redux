@@ -1,4 +1,7 @@
-const TodoItem = ({ filteredTodos }) => {
+
+import { toggleComplete, deleteTodo } from "../features/todo/todoSlice";
+
+const TodoItem = ({ filteredTodos,dispatch }) => {
   return (
     <>
       {filteredTodos.map((items, index) => (
