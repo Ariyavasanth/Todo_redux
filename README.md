@@ -1,13 +1,88 @@
-# React + Vite
+# 📝 Todo App — React + Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, responsive Todo list application built using **React** and **Redux Toolkit**. This app allows users to add, delete, complete, and filter their todos. It’s fully styled with **Tailwind CSS** for a clean UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+> Add your live site URL here if deployed (e.g., Netlify, Vercel)  
+`https://your-todo-app-url.netlify.app`
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Todo_redux
+## 💡 What I Learned
+
+Through building this project, I learned:
+
+- 📦 How to structure and use **Redux Toolkit** for state management  
+- 🔁 How to use `useDispatch` and `useSelector` from **React Redux**  
+- 🔘 Creating **custom UI components** like radio buttons with **Tailwind CSS**  
+- 🔍 Implementing **task filtering** (All / Completed / Incomplete)  
+- 🧠 How to break down logic into **slices**, reducers, and action creators  
+- 📄 JSX and component-based design for scalable front-end apps
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React
+- 🛠️ Redux Toolkit
+- 🎨 Tailwind CSS
+- ⚡ Vite
+
+---
+
+## 🧩 Features
+
+- ➕ Add Todos  
+- ✅ Mark as Completed / Incomplete  
+- ❌ Delete Todos  
+- 🔍 Filter: All | Completed | Incomplete  
+- 🌓 Responsive & Minimal UI  
+
+---
+
+## ▶️ Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the app**
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── App.jsx
+├── main.jsx
+├── components/
+│   ├── InputBox.jsx
+│   └── TodoItem.jsx
+├── features/
+│   └── todo/
+│       └── todoSlice.js
+```
+
+---
+
+## 📸 Screenshots
+> (Add screenshots of your app if you want)
+
+---
+
+## 📬 Contact
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/) or ask questions on GitHub.
