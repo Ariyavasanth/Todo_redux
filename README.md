@@ -88,4 +88,4 @@ src/
 
 ## 📬 Contact
 
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/ariyavasanth/) or ask questions on GitHub.
+Feel free to connect with me on [LinkedIn]([www.linkedin.com/in/ariyavasanth]) or ask questions on GitHub.
