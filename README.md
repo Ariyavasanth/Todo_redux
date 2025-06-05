@@ -5,8 +5,7 @@ A minimal, responsive Todo list application built using **React** and **Redux To
 ---
 
 ## 🚀 Live Demo  
-> Add your live site URL here if deployed (e.g., Netlify, Vercel)  
-[Linve Link](https://todolistreduxtool.vercel.app/)
+> [Linve Link](https://todolistreduxtool.vercel.app/)
 
 ---
 
