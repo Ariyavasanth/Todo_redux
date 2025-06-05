@@ -66,9 +66,12 @@ Through building this project, I learned:
 
 ```
 src/
+├──APP/
+|   ├──store.js
 ├── App.jsx
 ├── main.jsx
 ├── components/
+|   ├── Header.jsx  
 │   ├── InputBox.jsx
 │   └── TodoItem.jsx
 ├── features/
@@ -79,10 +82,10 @@ src/
 ---
 
 ## 📸 Screenshots
-> (Add screenshots of your app if you want)
+> ![todo_redux](https://github.com/user-attachments/assets/daf016a0-be71-435a-9c8b-adfa24e4592d)
 
 ---
 
 ## 📬 Contact
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/) or ask questions on GitHub.
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/ariyavasanth/) or ask questions on GitHub.
